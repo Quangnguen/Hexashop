@@ -1,0 +1,330 @@
+:root 
+{
+    --text-pr: #2a2a2a;
+    --text-sc: #bbb1ae;
+    --font-size-h1: 50px;
+    --sub-font-size: 36px;
+    --font-size-p: 16px;
+    --margin-section: 60px;
+    --font-weight-h1: 800;
+}
+ 
+.title-h1
+{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+}
+
+.subtitle-h1
+{
+    font-size: var(--sub-font-size);
+    font-weight: 700;
+}
+
+.bord-bt-box
+{
+    border-bottom-style: dotted;
+    border-bottom-color: #ccc;
+}
+
+.my-box
+{
+    margin: 60px 0;
+}
+
+.py-box
+{
+    padding: 60px 0;
+}
+
+.p-italic
+{
+    font-style: italic;
+}
+
+.bord-a
+{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+}
+
+.bord-a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.header
+{
+    height: 100px;
+ 
+}
+
+.header .nav li a
+{
+    color: var(--text-pr);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* banner */
+
+
+.banner .col-lg-6
+{
+    position: relative;
+}
+
+.banner .col-lg-6 .content,
+.banner .col-lg-6 .content-detail
+{
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner .col-lg-6 .content-detail h4,
+.banner .col-lg-6 .content-detail p,
+.banner .col-lg-6 .content h4,
+.banner .col-lg-6 .content p,
+.banner .col-lg-6 .content-left h1,
+.banner .col-lg-6 .content-left span
+{
+    color: #fff;
+}
+
+
+
+.banner .col-lg-6 .content p
+{
+    font-style: italic;
+}
+
+.banner .col-lg-6 .thumb:hover .content-detail
+{
+    opacity: 1;
+}
+
+.banner .col-lg-6 .thumb:hover .content
+{
+    opacity: 0.1;
+}
+
+.banner .col-lg-6 .content-detail
+{
+    opacity: 0;
+}
+
+
+.banner .content-left h1
+{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+}
+
+.banner .content-left
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 30%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* section */
+
+.section .section-about .flex-row
+{
+    overflow: hidden;
+}
+
+.section .box-left,
+.section .box-right
+{
+    position: relative;
+}
+
+.section .previous,
+.section .next
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--text-pr);
+}
+
+.section .previous
+{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.section .next
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.section .previous i,
+.section .next i
+{
+    font-size: 20px;
+}
+
+.section .previous:hover,
+.section .next:hover
+{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section .card p
+{
+    color: var(--text-sc);
+    font-weight: 700;
+}
+
+
+/* EXPLORE */
+.explore .explore-left
+{
+    /* padding-right: 40px; */
+}
+
+.explore h1
+{
+    font-weight: 700;
+}
+
+.explore h2
+{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+.explore p
+{
+    color: var(--text-sc);
+    font-weight: 600;
+}
+
+.explore .icon-quote
+{
+    font-size: 50px;
+}
+
+.explore .trick p
+{
+    font-weight: 600;
+    color: #000;
+}
+
+.explore .explore-right-01,
+.explore .explore-right-04
+{
+    /* background-color: #e7f1f3; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* SUBSCRIB */
+.subscrib button
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.subscrib button:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.subscrib dd
+{
+    color: var(--text-sc);
+}
+
+/* FOOTER */
+footer
+{
+    background-color: var(--text-pr);
+}
+
+footer li,
+footer p
+{
+    color: #fff;
+}
+
+footer .col-lg-3 p
+{
+    font-weight: 700;
+}
+
+footer .col-lg-12
+{
+    border: 1px;
+    border-top-color: #fff;
+    border-top-style: solid;
+}
+
+footer .col-lg-12 p
+{
+    text-align: center;
+}
+
+.icon-footer li
+{
+    margin: 0 10px;
+}
+
+.icon-footer li i
+{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
