@@ -21,6 +21,19 @@
     font-weight: 700;
 }
 
+.thtitle-h1
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.para-sc
+{
+    color: var(--text-sc);
+    font-size: var(--font-size-p);
+    font-weight: 400;
+}
+
 .bord-bt-box
 {
     border-bottom-style: dotted;
@@ -309,12 +322,186 @@ footer .col-lg-12 p
 
 
 
+/* Contact Us  */
+
+.banner-contact .container-flug img
+{
+    position: relative;
+}
+
+.banner-contact .content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-contact .content
+{
+    color: #fff;
+    text-align: center;
+}
+
+.banner-contact .content h1
+{
+    font-size: 40px;
+    font-weight: var(--font-weight-h1);
+}
+
+.message .send
+{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+
+}
+
+.message .send button:hover
+{
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* about us  */
+.aboutus .quote
+{
+    font-size: 50px;
+}
+
+.aboutus ul li
+{
+    margin: 0 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.aboutus ul li a 
+{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* teams */
+
+.teams .card-under
+{
+    position: relative;
+}
+
+.team-social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--text-pr);
+    opacity: .9;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.card-under:hover .team-social {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.team-social ul
+{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.team-social ul li 
+{
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-social ul li i
+{
+    font-size: 20px;
+    color: #fff;
+}
+
+.team-social ul li:hover
+{
+    background-color: #fff;
+}
+
+.team-social ul li:hover i
+{
+    color: #000;
+}
+
+
+/* service */
+.card-service
+{
+    box-shadow: 8px 8px 10px #d4e9ed;
+    border: 1px solid #d4e9ed;
+}
+
+.card-service .under-card
+{
+   text-align: center;
+}
+
+.card-service .under-card h2
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-service .under-card p
+{
+    font-size: 16px;
+}
 
 
 
 
+/* PRODUCT SINGLE */
+.list-subproduct
+{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
+.singleproduct .container-list
+{
+    padding: 0 12px;
+}
 
+.singleproduct .single-next:hover
+{
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid var(--text-sc);
+}
 
 
 
